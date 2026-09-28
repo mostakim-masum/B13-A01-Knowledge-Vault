@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* shard style */
+.btn{
+    background-color: #469165;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.4s;
+    
+}
+.btn2{
+    background: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+button:hover {
+    background: #81c23b;
+    transform: translateY(-4px);
+}
+
+/* main style */
+nav{ 
+
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 16px 120px;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+nav a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;  
+}
+#banner{
+    background: url(/assets/hero-bg.png);
+    height: 674px;
+    padding: 115.5px 120px 179.5px 120px ;
+    filter: brightness(80%);
+    
+}
+
+#banner .banner-content{
+    text-align: center;
+}
+.banner-content .hade-title{
+    background-color: #FFFFFF;
+    padding: 8px 12px;
+    height: 35px;
+    width: 229px;
+    border-radius: 1000px;
+    margin:auto ;
+    
+}
+.green-dot{
+    width: 9px;
+    height: 9px;
+    background-color: #469165;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow:0 0 0 2.5px  #46916584 ;
+    
+    
+}
+.hade-title h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+}
+#banner .title h1 {
+    font-size: 72px;
+    color: #FFFFFF;
+    line-height: 84px;
+    margin-top: 16px;
+}
+.coler-green{
+    color: #30B868;
+}
+.banner-content .banner-info p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.banner-content .banner-buttons {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}

@@ -33,6 +33,25 @@ button:hover {
     background: #81c23b;
     transform: translateY(-4px);
 }
+.card-content{
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 322px;
+    box-shadow: 0 0 8px 0 #00000056;
+    border-radius: 8px;
+    padding-top: 69.5px;
+}
+.img-box{
+    height: 60px;
+    width: 60px;
+    background-color: #F95555;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 /* main style */
 nav{ 
@@ -112,3 +131,46 @@ nav a{
     gap: 16px;
     justify-content: center;
 }
+
+#notes {
+    height: 448px;
+    padding: 0 120px;
+    text-align: center;
+
+}
+.note-container .note-taitle{
+    height: 152px;
+    width: 1360px;
+    padding-top: 56px;
+    margin-bottom: 44px;
+    
+}
+.note-container .note-taitle h2{
+    font-size: 48px;
+    color: #001931;
+    
+}
+.note-container .note-taitle p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-top: 16px ;
+}
+
+.note-container .note-cards{
+    display: flex;
+    gap: 24px;
+}
+.note-container .note-cards .card-content h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    padding-top: 16px;
+}
+.note-container .note-cards .card-content p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-top: 16px;
+}
+

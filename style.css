@@ -133,9 +133,11 @@ nav a{
 }
 
 #notes {
-    height: 448px;
+    height: 455px;
     padding: 0 120px;
     text-align: center;
+    background-color: #F7F6F2;
+    overflow: hidden;
 
 }
 .note-container .note-taitle{
@@ -173,4 +175,53 @@ nav a{
     color: #627382;
     padding-top: 16px;
 }
+
+#solution{
+    height: 840px;
+    padding: 120px;
+    
+}
+#solution .solution-container{
+    display: flex;
+}
+#solution .solution-container .solution-info{
+    height: 396px;
+    width: 700px;
+}
+#solution .solution-container .solution-info .info-doc{
+    padding: 102px 0 102px 60px ;
+    gap: 44px;
+    display: flex;
+    flex-direction: column;
+
+}
+.doc-text h6{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.doc-text h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.doc-text p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 16px;
+}
+.doc-list p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px; 
+    display: flex;
+    gap: 6px;
+}
+
+
 

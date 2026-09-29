@@ -223,5 +223,30 @@ nav a{
     gap: 6px;
 }
 
+#bottom{
+    height: 506px;
+    text-align: center;
+    
+}
+#bottom .bottom-info{
+    height: 384px;
+    width: 1360px;
+    margin: auto;
+    background-color: #F7F6F2;
+    padding-top: 80px;
+    border-radius: 12px;
+}
+#bottom .bottom-info h2{
+    font-size: 40px;
+    color: #001931;
+}
+#bottom .bottom-info p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
 
 

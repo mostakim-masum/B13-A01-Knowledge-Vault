@@ -18,6 +18,7 @@
     font-size: 16px;
     font-weight: 600;
     transition: 0.4s;
+    cursor: pointer;
     
 }
 .btn2{
@@ -28,6 +29,7 @@
     font-size: 16px;
     font-weight: 600;
     transition: 0.4s;
+    cursor: pointer;
 }
 button:hover {
     background: #81c23b;
@@ -208,13 +210,11 @@ nav a{
     margin-bottom: 16px;
 }
 .doc-text p{
-    font-size: 16px;
     line-height: 20px;
     color: #627382;
     margin-bottom: 16px;
 }
 .doc-list p{
-    font-size: 16px;
     font-weight: 600;
     line-height: 20px;
     color: #001931;
@@ -290,5 +290,3 @@ footer .footer-info{
     color: #FAFAFA;
     margin-top: 30px;
 }
-
-

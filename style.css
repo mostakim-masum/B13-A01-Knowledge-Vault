@@ -78,7 +78,7 @@ nav a{
     font-weight: 500;  
 }
 #banner{
-    background: url(/assets/hero-bg.png);
+    background: url(./assets/hero-bg.png);
     height: 674px;
     padding: 115.5px 120px 179.5px 120px ;
     filter: brightness(80%);
